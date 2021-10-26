@@ -23,7 +23,7 @@ body{
 .search .input{
     background-color: #fff;
     border: 0;
-    font-size: 10px;
+    font-size: 18px;
     padding: 15px;
     height: 50px;
     width: 50px;
@@ -53,5 +53,5 @@ body{
 }
 
 .search.active .btn{
-    transform: translateX(198deg);
+    transform: translateX(198px);
 }
