@@ -17,3 +17,4 @@
         - Viewport: the user's visible area of a web page.
         - It *returns* the *size of an element* and *its position relative to the viewport*.
         - It *returns* a *DOMRect object* with *eight properties*: **left, top, right, bottom, x, y, width, height**.
+        - **Note**: **If we use with more box by using the loop, they will only count from the viewpoint (not from the last item in the loop)**.
