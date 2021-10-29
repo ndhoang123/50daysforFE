@@ -1,2 +1,2 @@
 # Day 7
-## Split lading page
+## Form Input Wave
