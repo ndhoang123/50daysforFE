@@ -5,120 +5,132 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
 </head>
 
 <body>
-    <div class="bottom">
-        <div class="heading">
-            <span>Order Detail</span>
-            <span class="split"> - </span>
-            <span class="status">Successfully</span>
-        </div>
-        <div class="create-date">
-            <span>Created At:</span>
-            22:54 08/06/2021
-        </div>
-        <div class="information">
-            <div class="col">
-                <div class="title">Address</div>
-                <div class="content">
-                    <p class="name">A</p>
-                    <p class="address">
-                        <span>Address: </span>A abc street
-                    </p>
-                    <p class="phone">
-                        <span>Phone:</span> 09696969
-                    </p>
+    <div class="contain">
+        <div class="tracking-layout">
+            <div class="tracking-layout-inner">
+                <div class="order-heading">
+                    <h3>Theo dõi đơn hàng #247279080</h3>
+                    <div class="view-detail">View this order</div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="title">Delivery method</div>
-                <div class="content">
-                    <p class="name">A</p>
-                    <p class="address">
-                        <span>Address: </span>A abc street
-                    </p>
-                    <p class="phone">
-                        <span>Phone:</span> 09696969
-                    </p>
+                <div class="card">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12">
+                            <ul id="progressbar" class="text-center">
+                                <li class="step0 active"></li>
+                                <li class="step0 active"></li>
+                                <li class="step0 active"></li>
+                                <li class="step0 active"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="content-img">
+                            <img src="Image/9nnc9Et.png" alt="Processed Icon" class="icon">
+                            <p class="content-title">Order<br>Processed</p>
+                        </div>
+                        <div class="content-img">
+                            <img src="Image/u1AzR7w.png" alt="" class="icon">
+                            <p class="content-title">Order<br>Shipped</p>
+                        </div>
+                        <div class="content-img">
+                            <img src="Image/TkPm63y.png" alt="" class="icon">
+                            <p class="content-title">Order<br>En Route</p>
+                        </div>
+                        <div class="content-img">
+                            <img src="Image/HdsziHP.png" alt="" class="icon">
+                            <p class="content-title">Order<br>Arrived</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="title">Payment method</div>
-                <div class="content">
-                    <p class="name">A</p>
-                    <p class="address">
-                        <span>Address: </span>A abc street
-                    </p>
-                    <p class="phone">
-                        <span>Phone:</span> 09696969
-                    </p>
-                </div>
-            </div>
-        </div>
-        <table class="tbl">
-            <thead>
-                <tr>
-                    <th>Product</th>
-                    <th>Price</th>
-                    <th>Qty</th>
-                    <th>Discount</th>
-                    <th>Temp caculate</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <div class="product-item">
-                            <img src="https://salt.tikicdn.com/cache/200x200/ts/product/1b/3f/9f/f240b369353d46803770c2887027ab4c.jpg" 
-                            alt="Tai Nghe Có Dây Nhét Tai Sennheiser CX 80S - Hàng Chính Hãng">
-                            <div class="product-info">
-                                <a href="" class="product-name">Tai Nghe Có Dây Nhét Tai Sennheiser CX 80S - Hàng Chính Hãng</a>
+                <div class="order-info">
+                    <div class="order-status">
+                        <div class="order-status-heading">
+                            Tracking detail: <span class="delivery-text"> Successful </span>
+                        </div>
+                        <div class="order-status-progress">
+                            <div class="progress-step active">
+                                <div class="step-bar">
+                                    <span class="step-bar-circle"></span>
+                                    <span class="step-bar-line"></span>
+                                </div>
+                                <div class="step-info">
+                                    <div class="step-info-status-text">Giao hàng thành công</div>
+                                    <div class="step-info-substate-text"></div>
+                                    <div class="step-info-hint"></div>
+                                    <div class="step-info-time">15:52, Thứ tư 09-06-2021</div>
+                                    <div class="step-info-divider"></div>
+                                </div>
                             </div>
-                        </div> 
-                    </td>
-                    <td class="price">499.000 ₫</td>
-                    <td class="quantity">1</td>
-                    <td class="discount-amount">50.000 ₫</td>
-                    <td class="raw-total">449.000 ₫</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="4">
-                        <span>Temp Calculate</span>
-                    </td>
-                    <td>499.999VND</td>
-                </tr>
-                <tr>
-                    <td colspan="4">
-                        <span>Discount</span>
-                    </td>
-                    <td>10.000VND</td>
-                </tr>
-                <tr>
-                    <td colspan="4">
-                        <span>Shipping fee</span>
-                    </td>
-                    <td>10.000VND</td>
-                </tr>
-                <tr>
-                    <td colspan="4">
-                        <span>Sum</span>
-                    </td>
-                    <td>
-                        <span class="sum">453.000VND</span>
-                    </td>
-                </tr>
-            </tfoot>
-        </table>
-        <a href="#" class="btn btn-secondary" id="btn3" disabled="disabled">Cancel Order</a>
-        <a href="#" class="btn btn-success" id="btn2">Tracking</a>
-        <a href="#" id="btn1">&lt;&lt; Back to the order list</a>
+                            <div class="progress-step">
+                                <div class="step-bar">
+                                    <span class="step-bar-circle"></span>
+                                    <span class="step-bar-line"></span>
+                                </div>
+                                <div class="step-info">
+                                    <div class="step-info-status-text">Đang vận chuyển</div>
+                                    <div class="step-info-substate-text">TED đang vận chuyển</div>
+                                    <div class="step-info-hint"></div>
+                                    <div class="step-info-time">13:27, Thứ tư 09-06-2021</div>
+                                    <div class="step-info-divider"></div>
+                                </div>
+                            </div>
+                            <div class="progress-step">
+                                <div class="step-bar">
+                                    <span class="step-bar-circle"></span>
+                                    <span class="step-bar-line"></span>
+                                </div>
+                                <div class="step-info">
+                                    <div class="step-info-status-text">Giao hàng thành công</div>
+                                    <div class="step-info-substate-text"></div>
+                                    <div class="step-info-hint"></div>
+                                    <div class="step-info-time">15:52, Thứ tư 09-06-2021</div>
+                                    <div class="step-info-divider"></div>
+                                </div>
+                            </div>
+                            <div class="progress-step first">
+                                <div class="step-bar">
+                                    <span class="step-bar-circle"></span>
+                                    <span class="step-bar-line"></span>
+                                </div>
+                                <div class="step-info">
+                                    <div class="step-info-status-text">Giao hàng thành công</div>
+                                    <div class="step-info-substate-text">TED đang vận chuyển</div>
+                                    <div class="step-info-hint"></div>
+                                    <div class="step-info-time">15:52, Thứ tư 09-06-2021</div>
+                                    <div class="step-info-divider"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-items">
+                        <p class="item-list-title">Package including:</p>
+                        <div class="items">
+                            <div class="item">
+                                <div class="image"
+                                    style="background-image: url(https://salt.tikicdn.com/cache/200x200/ts/product/1b/3f/9f/f240b369353d46803770c2887027ab4c.jpg)">
+                                    <span class="qty">
+                                        x
+                                        1
+                                    </span>
+                                </div>
+                                <div class="info">
+                                    <a href="#" class="name">Tai Nghe Có Dây Nhét Tai Sennheiser CX 80S - Hàng Chính
+                                        Hãng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
