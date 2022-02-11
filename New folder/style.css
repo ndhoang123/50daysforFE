@@ -150,6 +150,147 @@ button, input{
   float: none;
 }
 
+.siteHeader-personal-nav{
+  margin: 0;
+}
+
+.personal-nav-listItem{
+  display: inline-block;
+}
+
+.dropdown-notification{
+  z-index: 71;
+}
+
+.dropdown-trigger-personalNav{
+  display: inline-block;
+  height: 60px;
+  width: 46px;
+  position: relative;
+}
+
+.dropdown-trigger-personalNavActive{
+  cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  position: relative;
+  width: 46px;
+  background-color: #382110;
+  color: #FFFFFF;
+}
+
+.dropdown button{
+  border: none;
+  background-color: hsl(210, 8%, 97.5%);
+}
+
+.dropdown button:focus{
+  border: none;
+}
+
+.personalNav-icon{
+  height: 30px;
+  width: 30px;
+  margin: 10px 8px;
+  display: inline-block;
+}
+
+.personalNav-notifications{
+  background: url(Image/notification-bell.svg) 0 center no-repeat;
+  height: 30px;
+  width: 30px;
+}
+
+.personalNav-shoppingCart{
+  background: url(Image/shopping-cart-svgrepo-com.svg) 0 center no-repeat;
+  height: 30px;
+  width: 30px;
+}
+
+.personalNav-userAvatar{
+  background: url(Image/user-avatar.svg) 0 center no-repeat;
+  height: 30px;
+  width: 30px;
+}
+
+.dropdownMenu{
+  display: none;
+}
+
+.dropdown-menu-profileMenu{
+  background-color: #ffffff;
+  position: relative;
+  z-index: 70;
+  top: 100px;
+}
+
+@media(min-width: 1200px){
+  .dropdown-menu-profileMenu{
+    top: 90px;
+  }
+}
+
+.gr-box-withShadowLarge{
+  box-shadow: 0 5px 5px rgb(0 0 0 / 15%);
+}
+
+.subNav{
+  display: inline-block;
+  padding: 8px 0;
+  width: 160px;
+  float: left;
+}
+
+.subNav-profile{
+  background-color: #ffffff;
+  position: absolute;
+  right: 0;
+  width: 220px;
+}
+
+.subNav-link{
+  color: #333333;
+  display: block;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 14px;
+  line-height: 32px;
+  padding: 0 16px;
+}
+
+.subNav ul{
+  padding: 0;
+}
+
+.gr-h3-noMargin{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.borderTop{
+  border-top: 1px solid #D8D8D8;;
+}
+
+.gr-h3{
+  color: #333333;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin: 12px 0;
+  text-transform: uppercase;
+}
+
+.menuLink{
+  list-style-type: none;
+}
+
+.dropdownMenu-Show{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: block;
+}
+
 ul{
   font-size: 12px;
 }
@@ -219,6 +360,7 @@ ul{
   font-size: 13px;
   top: 20%;
   left: 44%;
+  width: 20px;
 }
 
 .dropdown-btn{
@@ -227,6 +369,7 @@ ul{
   display: flex;
   flex-direction: row;
   font-size: 15px;
+  height: 30px;
 }
 
 .dropdown-btn span img{

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="siteHeader">
+        <header>
+            <div class="siteHeader-top">
+                <div class="siteHeader-content">
+                    <a href="/" class="siteHeader-logo" aria-label="RookieEShop Home"
+                        title="RookieEShopHome">RookieEShop</a>
+                    <div class="searchBox searchBox-navBar">
+                        <form autocomplete="off" action="/search" class="searchBox-form" role="search"
+                            aria-label="Search for books to add to your shelves">
+                            <input type="text" class="searchBox-input seachBox_input-navBar" placeholder="Search Books"
+                                aria-label="Search books" aria-controls="searchResults">
+                            <input type="hidden" name="qid">
+                            <button type="submit" class="searchBox-icon-search searchBox-icon gr-iconButton"
+                                aria-label="Search"></button>
+                        </form>
+                    </div>
+                    <!-- Head bar with logged in-->
+                    <div class="siteHeader-personal">
+                        <ul class="siteHeader-personal-nav">
+                            <li class="personal-nav-listItem">
+                                <div class="dropdown dropdown-notification">
+                                    <a href="#" class="dropdown-trigger dropdown-trigger-notification dropdown-trigger-personalNav" role="button" aria-haspopup="true" aria-expanded="false" title="Notifications">
+                                        <span class="personalNav-icon personalNav-notifications" aria-label="Notifications"></span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="siteHeader-personal">
+                        <ul class="siteHeader-personal-nav">
+                            <li class="personal-nav-listItem">
+                                <div class="dropdown dropdown-notification">
+                                    <a href="#" class="dropdown-trigger dropdown-trigger-notification dropdown-trigger-personalNav" role="button" aria-haspopup="true" aria-expanded="false" title="Cart">
+                                        <span class="personalNav-icon personalNav-shoppingCart" aria-label="Cart"></span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="siteHeader-personal">
+                        <ul class="siteHeader-personal-nav">
+                            <li class="personal-nav-listItem">
+                                <div class="dropdown dropdown-notification">
+                                    <a id="userAvatar" class="dropdown-trigger dropdown-trigger-notification dropdown-trigger-personalNav " role="button" aria-haspopup="true" aria-expanded="true" title="Avatar">
+                                        <span class="personalNav-icon personalNav-userAvatar" aria-label="Avatar"></span>
+                                    </a>
+                                    <div class="dropdownMenu" id="dropdownMenu">
+                                        <div class="subNav subNav-profile gr-box gr-box-withShadowLarge">
+                                            <span class="subNav-link gr-h3 gr-h3-noMargin">
+                                                <span>Hoang Nguyen</span>
+                                            </span>
+                                            <ul>
+                                                <li class="menuLink" role="menuitem">
+                                                    <span>
+                                                        <a href="#" class="subNav-link">Profile</a>
+                                                    </span>
+                                                </li>
+                                                <li class="menuLink" role="menuitem">
+                                                    <span>
+                                                        <a href="#" class="subNav-link">Language</a>
+                                                    </span>
+                                                </li>
+                                                <li class="menuLink" role="menuitem">
+                                                    <span>
+                                                        <a href="#" class="subNav-link">Order history</a>
+                                                    </span>
+                                                </li>
+                                                <li class="menuLink" role="menuitem">
+                                                    <span>
+                                                        <a href="#" class="subNav-link">Change password</a>
+                                                    </span>
+                                                </li>
+                                                <li class="menuLink" role="menuitem">
+                                                    <span>
+                                                        <a href="#" class="subNav-link borderTop">Sign out</a>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-nav">
+                <div class="dropdown">
+                    <button class="dropdown-btn">
+                        <p class="dropdown-title">Nation</p>
+                        <span>
+                            <img src="Image/dropdown.svg" alt="dropdown">
+                        </span>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Vietnamese</a>
+                        <a href="#">Foreign</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
